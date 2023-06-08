@@ -2,7 +2,7 @@ Package: functionlist
 Title: Favorite R functions of Sebastian Loos
 Version: 0.0.0.9000
 Authors@R: 
-    person("Sebastian", "Loos", , "sloos@ethz.ch", role = c("aut", "cre"),
+    person("Sebastian Camilo", "Loos", , "sloos@ethz.ch", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0002-8830-1734"))
 Description: It contains a dataset.
 License: CC BY 4.0
