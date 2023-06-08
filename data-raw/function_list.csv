@@ -1,0 +1,111 @@
+﻿function;package;description;documentation;application
+save;base;save a file or an object;NA;file management
+load;base;load a file or an object;NA;file management
+print;base;print on console;NA;output
+names;base;get names of objects;NA;object information
+paste0;base;Concatenate strings;NA;strings
+data.frame;base;creates data frames;NA;data import
+getwd;base;get the working directory;NA;paths
+setwd;base;sets the directory to use for all future relative paths;NA;paths
+here;here;sets the directory to use for all future relative paths;NA;paths
+getwd;here;shows the directory you are in currently;NA;paths
+read_excel;readxl;read in excel files using different options;https://www.rdocumentation.org/packages/readxl/versions/1.4.2/topics/read_excel;data import
+readxl_example;readxl;read in example excel files;https://www.rdocumentation.org/packages/readxl/versions/1.4.2/topics/readxl_example;data import
+read_sheet;googlesheets4;read in from google sheets files;NA;data import
+gs4_auth;googlesheets4;get acces for google sheets account;NA;data import
+gs4_find;googlesheets4;list all your worksheets on Google Sheets as a table;NA;data import
+;googledrive;download files from Google Drive;NA;data import
+;googledrive;upload files to your Google Drive;NA;data export
+read_csv;readr;read in csv files;NA;data import
+read.csv;base;read in csv files;NA;data import
+write _csv;readr;export csv files;NA;data export
+read_tsv;readr;read in tsv files;NA;data import
+read_delim;readr;read in txt file data frames;NA;data import
+read_json;jsonlite;read from json file;NA;data import
+fromJSON;jsonlite;convert json object into a data frame;NA;data import
+toJSON;jsonlite;return to json file;NA;data export
+read_xml;xml2;read XML file into R;NA;data import
+read_html;xml2;read from html into R;NA;data import
+dbDriver;RSQLite;Specify driver;NA;database Import
+dbConnect;RSQLite;Connect to Database;NA;database Import
+dbListTables;RSQLite;List set of tables included in database;NA;database Import
+tbl;dbplyr;extract tables from database;NA;database Import
+html_nodes;rvest;specify parts/tag of the webpage;NA;data import
+html_text;rvest;extract the text from specified tag;NA;data import
+GET;httr; fetch a resource that already exists / construct API request;NA;data import
+content;httr;extract content from an API request;NA;data import
+read_sas;haven;read in sas files (SAS);NA;data import
+write_sas;haven;export sas files (SAS);NA;data import
+read_sav;haven;read in sav files (SPSS);NA;data import
+write_sav;haven;export sav files (SPSS);NA;data import
+read_dta;haven;read in dta files (Stata);NA;data import
+read_dta;haven;export dta files (Stata);NA;data import
+NA;magick;advanced image processing within R;NA;image processing
+image_read;magick;import an image;NA;image processing
+image_ocr;magick;extract text within an image;NA;image processing
+packageDescription;utils;"Parses and returns the DESCRIPTION file of a package as a ""packageDescription"". Utility functions return (transformed) parts of that.";https://www.rdocumentation.org/packages/utils/versions/3.6.2/topics/packageDescription;package information
+NA;dplyr;data wrangling/manipulation;NA;data tyding
+glimpse;dplyr;get an overview of what’s included in dataset;NA;data tyding
+filter;dplyr;filter rows;NA;data tyding
+select;dplyr;select, rename, and reorder columns;NA;data tyding
+rename;dplyr;rename columns;NA;data tyding
+arrange;dplyr;reorder rows;NA;data tyding
+mutate;dplyr;create a new column;NA;data tyding
+group_by;dplyr;group variables;NA;data tyding
+summarize;dplyr;summarize information within a dataset;NA;data tyding
+left_join;dplyr;combine data across data frame;NA;data tyding
+tally;dplyr;get overall sum of values of specified column(s) or the number of rows of tibble;NA;data tyding
+count;dplyr;get counts of unique values of specified column(s) (shortcut of group_by() and tally());NA;data tyding
+add_count;dplyr;add values of count() as a new column;NA;data tyding
+add_tally;dplyr;add value(s) of tally() as a new column;NA;data tyding
+tibble;dplyr;create tibbles;NA;data tyding
+as_tibble;dplyr;creates tibbles from data frames;NA;data tyding
+slice_*;dplyr;show part of tibble (head, tail, min, max, etc.);NA;data tyding
+inner_join;dplyr;Inner Join - only keep observations found in both x and y;NA;data tyding
+left_join;dplyr;Left Join - keep all observations in x;NA;data tyding
+right_join;dplyr;Right Join - keep all observations in y.Convertion into tibble necessary!!!;NA;data tyding
+full_join;dplyr;Full Join - keep any observations in x or y. Convertion into tibble necessary!!!;NA;data tyding
+semi_join;dplyr;keeps all observations in x with a match in y;NA;data tyding
+anti_join;dplyr;keeps observations in x that do NOT have a match in y;NA;data tyding
+tbl;dplyr;create table from data source;NA;data tyding
+anti_join;dplyr;keeps observations in x that do NOT have a match in y;NA;data tyding
+tbl;dplyr;create table from data source;NA;data tyding
+NA;tidyr;tidying data;NA;data tyding
+unite;tidyr;combine contents of two or more columns into a single column;NA;data tyding
+separate;tidyr;separate contents of a column into two or more columns;NA;data tyding
+pivot_longer;tidyr;get the data into a long format that will be easy to use for analysis;NA;data tyding
+pivot_wider;tidyr;return your long data back to its original form;NA;data tyding
+NA;janitor;clean messy data;NA;data tyding
+clean_names;janitor;clean names of a data frame;NA;data cleaning
+tabyl;janitor;get a helpful summary of a variable;NA;data cleaning
+get_dupes;janitor;identify duplicate observations;NA;data cleaning
+NA;skimr;summarize;NA;data tyding
+skim;skimr;summarize a data frame;NA;data tyding
+NA;forcats;factors;NA;data tyding
+NA;stringr;strings;NA;data tyding
+NA;lubridate;date;NA;data tyding
+NA;glue;string literals;NA;data tyding
+NA;tidytext;text toand from tidy formats;NA;data tyding
+NA;purrr;providing a complete and consistent set of tools for working with functions and vectors;NA;data tyding
+NA;ggplot2;declaratively creating graphics, based on The Grammar of Graphics;NA;data visualization
+NA;kableExtra;allows complex and detailed tables to be built using a ggplot2-inspired syntax;NA;data visualization
+NA;ggrepel;provides geoms for ggplot2 to repel overlapping text labels;NA;data visualization
+NA;cowplot;polish and put finishing touches on your plots;NA;data visualization
+NA;patchwork;polishand combining multiple plots together;NA;data visualization
+NA;gganimate;The gganimate package (also tidyverse-adjacent) enables animation on top of ggplot2 plots;NA;data visualization
+NA;broom;takes statistical analysis objects from R and converts them into a tidy data format (tidymodels);NA;data modeling
+NA;infer;perform statistical inference using a standard statistical grammar (tidymodels);NA;data modeling
+NA;tsibble; time-series version of a tibble (tidyverts);NA;time series data
+NA;feasts;modeling step in time series analyses (tidyverts);NA;time series data
+NA;fable;modeling step in forecasting analyses (tidyverts);NA;time series data
+create.project;ProjectTemplate;creates a folder based on the template;NA;project setup
+create.template;ProjectTemplate;creates a template that can be used as a template for folders;NA;project setup
+load.project;ProjectTemplate;“setup” your project each time you open it;NA;project setup
+NA;googledrive;Google Drive Package;NA;google drive
+drive_find;googledrive;find files;NA;google drive
+drive_browse;googledrive;files viewed from default browser;NA;google drive
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
