@@ -43,7 +43,7 @@ read_dta;haven;export dta files (Stata);NA;data import
 NA;magick;advanced image processing within R;NA;image processing
 image_read;magick;import an image;NA;image processing
 image_ocr;magick;extract text within an image;NA;image processing
-packageDescription;utils;"Parses and returns the DESCRIPTION file of a package as a 'packageDescription'. Utility functions return (transformed) parts of that.";https://www.rdocumentation.org/packages/utils/versions/3.6.2/topics/packageDescription;package information
+packageDescription;utils;Parses and returns the DESCRIPTION file of a package as a 'packageDescription'. Utility functions return (transformed) parts of that.;https://www.rdocumentation.org/packages/utils/versions/3.6.2/topics/packageDescription;package information
 NA;dplyr;data wrangling/manipulation;NA;data tyding
 glimpse;dplyr;get an overview of what’s included in dataset;NA;data tyding
 filter;dplyr;filter rows;NA;data tyding
